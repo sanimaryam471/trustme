@@ -6,7 +6,7 @@ export default function RestoreWalletPage() {
     <div className="flex min-h-screen bg-background">
       <SidebarPanel
         title="Import a wallet"
-        imageSrc="/images/laptop-wallet.jpg"
+        imageSrc="/images/hand-wallet.jpg"
         imageAlt="Laptop with crypto trading charts"
       />
       <RestoreWalletForm />
