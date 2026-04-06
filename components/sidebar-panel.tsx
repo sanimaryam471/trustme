@@ -11,7 +11,6 @@ export function SidebarPanel({ step, title, imageSrc, imageAlt }: SidebarPanelPr
   return (
     <aside className="hidden lg:flex flex-col justify-between bg-secondary px-10 py-10 min-h-screen w-full max-w-md">
       <div>
-        <div className="h-8 w-20 rounded-full bg-foreground" />
         {step && (
           <p className="mt-8 text-sm text-muted-foreground">{step}</p>
         )}
