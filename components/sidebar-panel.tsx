@@ -12,6 +12,7 @@ export function SidebarPanel({ step, title, imageSrc, imageAlt }: SidebarPanelPr
     <aside className="hidden lg:flex flex-col justify-between bg-secondary px-10 py-10 min-h-screen w-full max-w-md">
       <div>
         {step && (
+          <p className="mt-8 text-sm text-muted-foreground">{step}</p>
         )}
         <h1 className={`${step ? "mt-2" : "mt-8"} text-2xl font-bold text-foreground text-balance`}>
           {title}
